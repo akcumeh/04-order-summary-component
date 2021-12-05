@@ -210,7 +210,7 @@
         box-sizing: inherit;
         max-width: 31.25vw;
         width: 31.25vw;
-        
+        margin-top: 5vw;
         height: max-content;
         justify-content: space-evenly;
         padding: 0;
