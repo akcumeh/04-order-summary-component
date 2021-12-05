@@ -172,7 +172,7 @@
     
     div.footer {
         position: absolute;
-        top: 150vw;
+        top: 175vw;
         font-family: "Red Hat Display", sans-serif;
         font-size: 3vw;
         color: hsl(224, 23%, 55%);
@@ -186,9 +186,9 @@
     
 }
     
-/* desktop site */
+/* tab/desktop site */
 
-@media only screen and (min-width: 900px) and (orientation: landscape) {
+@media only screen and (min-width: 800px) and (orientation: landscape) {
     body {
         display: flex;
         flex-direction: column;
