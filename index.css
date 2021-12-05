@@ -1,0 +1,356 @@
+/* mobile version */
+
+@media only screen and (min-width: 250px) {
+    body {
+        overflow: auto;
+        margin: 0;
+        top: 0;
+        position: absolute;
+        box-sizing: border-box;
+        width: 100vw;
+        height: 100vh;
+        background-color: hsl(225, 100%, 94%);
+    }
+    
+    div.bigbox {
+        position: absolute;
+        height: max-content;
+        width: 87.5vw;
+        border-radius: 5.333vw;
+        margin-left: 6.4vw;
+        margin-right: 6.4vw;
+        margin-top: 10.14vh;
+        margin-bottom: 10.14vh;
+        background-color: white;
+        box-shadow: 0.5vw 0.5vw 2vw 0vw hsl(244, 73%, 85%);
+    }
+    
+    div.bigbox img {
+        width: 100%;
+        height: 22.5vh;
+        border-top-left-radius: 5.333vw;
+        border-top-right-radius: 5.333vw;
+        margin: 0;
+        margin-bottom: 5.35vh;
+    }
+    
+    h1 {
+        position: relative;
+        top: 0;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 3.75vh;
+        font-weight: 900;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 6vw;
+        letter-spacing: 0.2px;
+        line-height: 1.25em;
+        text-align: center;
+        color: hsl(223, 47%, 23%);
+    }
+    
+    p {
+        position: relative;
+        top: 0;
+        margin-top: 0;
+        left: 0;
+        margin-bottom: 3.8vh;
+        margin-left: 10.5vw;
+        margin-right: 10.5vw;
+        border: 0;
+        width: 70vw;
+        text-align: center;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 3.75vw;
+        letter-spacing: 0.25px;
+        line-height: 1.75em;
+        color: hsl(224, 23%, 55%);
+        padding: 0;
+    }
+    
+    div.plan {
+        position: relative;
+        left: 5vw;
+        right: 5vw;
+        width: 70vw;
+        max-height: 11.55vh;
+        color: hsl(223, 47%, 23%);
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 3.75vw;
+        background-color: hsl(225, 100%, 98%);
+        border-radius: 3vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-top: 4.8vw;
+        padding-bottom: 4.8vw;
+        text-align: right;
+        margin-bottom: 3.52vh;
+    }
+    
+    div.bigbox div.plan img {
+        position: absolute;
+        top: 4vw;
+        left: 4vw;
+        margin: 0;
+        width: 12.8vw;
+        height: 12.8vw;
+    }
+    
+    div.bigbox div.plan div#plan01 {
+        position: absolute;
+        left: 22.4vw;
+        top: 2.5vh;
+        bottom: 6.62vh;
+        font-weight: 700;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        color: hsl(223, 47%, 23%);
+    }
+    
+    div.plan div#plan02 {
+        position: relative;
+        top: 3.5vh;
+        left: -30.75vw;
+        color: hsl(224, 23%, 55%);
+    }
+    
+    a#change {
+        color: hsl(245, 75%, 52%);
+        font-weight: 700;
+        position: relative;
+        top: -1.5vh;
+        right: 1vw;
+    }
+    
+    a#change:visited {
+        color: hsl(245, 75%, 52%);
+    }
+    
+    a#change:active {
+        background-color: none;
+        color: hsl(245, 75%, 52%);
+        text-decoration-line: none;
+    }
+    
+    button {
+        position: relative;
+        margin-top: 0;
+        top: 0;
+        left: 5vw;
+        right: 5vw;
+        width: 78.25vw;
+        border-radius: 3vw;
+        height: 6.5vh;
+        border: 0;
+        font-family: "Red Hat Display", sans-serif;
+        font-weight: 700;
+        font-size: 3.75vw;
+        letter-spacing: 0.25px;
+    }
+    
+    button#button01 {
+        background-color: hsl(245, 75%, 52%);
+        color: white;
+        box-shadow: 1vw 2vw 4vw 1vw hsl(245, 100%, 90%);
+    }
+    
+    button#button02 {
+        background-color: transparent;
+        color: hsl(224, 23%, 55%);
+    }
+    
+    button#button01:active {
+        background-color: hsl(245, 83%, 68%);
+        color: white;
+    }
+    
+    button#button02:active {
+        background-color: transparent;
+        color: hsl(223, 47%, 23%);
+    }
+    
+    div.footer {
+        position: absolute;
+        top: 150vw;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 3vw;
+        color: hsl(224, 23%, 55%);
+        text-align: center;
+        left: 3.83vw;
+    }
+    
+    div.footer a {
+        color: hsl(245, 75%, 52%);
+    }
+    
+}
+    
+/* desktop site */
+
+@media only screen and (min-width: 900px) and (orientation: landscape) {
+    body {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 100vw;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: space-around;
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 100vw 50vh;
+    }
+
+    div.bigbox {
+        display: inherit;
+        flex-direction: inherit;
+        box-sizing: inherit;
+        max-width: 31.25vw;
+        width: 31.25vw;
+        
+        height: max-content;
+        justify-content: space-evenly;
+        padding: 0;
+        border-radius: 2vw;
+    }
+
+    div.bigbox img {
+        display: inherit;
+        align-self: flex-start;
+        width: 100%;
+        height: 15.364583333vw;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        border-top-right-radius: 2vw;
+        border-top-left-radius: 2vw;
+        top: 0;
+    }
+
+    div.bigbox h1 {
+        font-size: 1.75vw;
+        text-align: center;
+        margin-top: 3.6458333vw;
+    }
+
+    div.bigbox p {
+        font-size: 0.85vw;
+        text-align: center;
+        align-self: center;
+        width: 16.319444vw;
+        max-height: 4.55vw;
+        padding: 0;
+        border: 0;
+        margin: 0;
+    }
+
+    div.bigbox div.plan {
+        box-sizing: inherit;
+        display: inherit;
+        width: 24.566vw;
+        height: 7.205vw;
+        margin-top: 1.736111vw;
+        border-radius: 0.75vw;
+        position: static;
+        /* TIL the function of "position: static;": It resets the box
+        to fit to whatever flow system it should have and makes any
+        positioning properties like top, left, right, etc to not apply.
+        Nice! \^o^/ */
+        align-self: center;
+        flex-direction: row;
+        align-items: center;
+        padding: 5%;
+    }
+
+    div.bigbox div.plan img {
+        box-sizing: inherit;
+        position: static;
+        width: 2.5vw;
+        height: 2.5vw;
+        align-self: center;
+        margin-left: -0.5vw;
+    }
+
+    div.bigbox div.plan div#plan01 {
+        box-sizing: inherit;
+        display: inherit;
+        flex-direction: row;
+        position: absolute;
+        left: 7vw;
+        right: 20vw;
+        top: 30.5vw;
+        font-size: 1vw;
+        font-weight: 750;
+        align-self: center;
+        margin-left: 2vw;
+        width: 7.5vw !important;
+    }
+
+    div.bigbox div.plan div#plan02 {
+        box-sizing: inherit;
+        position: absolute;
+        left: 7vw;
+        right: 20vw;
+        top: 32.5vw;
+        font-size: 1vw;
+        align-self: center;
+        width: 7.5vw !important;
+    }
+
+    div.bigbox div.plan a#change {
+        box-sizing: inherit;
+        display: inherit;
+        flex-direction: row;
+        position: absolute;
+        left: 20vw;
+        right: 20vw;
+        top: 31.5vw;
+        font-size: 1vw;
+        font-weight: 750;
+        align-self: center;
+        margin-left: 2vw;
+        width: 7.5vw !important;
+    }
+
+    button#button01 {
+        display: inherit;
+        flex-direction: row;
+        margin: 0;
+        position: static;
+        align-self: center;
+        width: 24.74vw;
+        height: 3.47222vw;
+        border-radius: 0.5vw;
+        font-size: 1vw;
+        padding: 1vw;
+        padding-left: 7.5vw;
+        margin-bottom: 1.5vw;
+        box-shadow: 0.5vw 0.75vw 1vw 0.25vw hsl(245, 100%, 90%);
+    }
+
+    button#button02 {
+        display: inherit;
+        flex-direction: row;
+        margin: 0;
+        position: static;
+        align-self: center;
+        width: 24.74vw;
+        height: 3.47222vw;
+        border-radius: 0.5vw;
+        font-size: 1vw;
+        padding: 1vw;
+        padding-left: 9vw;
+        margin-bottom: 2vw;
+    }
+
+    div.footer {
+        position: absolute;
+        top: 51.5vw;
+        font-size: 1vw;
+        text-align: center;
+        left: 0;
+    }
+}
